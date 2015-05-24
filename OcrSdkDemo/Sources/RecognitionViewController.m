@@ -48,14 +48,14 @@ static NSString* MyPassword = @"fzs1XmPvy+p50vRP6lIiNAAb";
     
     
 	// Do any additional setup after loading the view, typically from a nib.
-    NSDictionary* headers = @{@"accept": @"application/json"};
-    NSDictionary* parameters = @{@"parameter": @"value", @"foo": @"bar"};
+    //NSDictionary* headers = @{@"accept": @"application/json"};
+    //NSDictionary* parameters = @{@"parameter": @"value", @"foo": @"bar"};
     
-    NSHTTPURLResponse *response = [[UNIRest post:^(UNISimpleRequest *request) {
-        [request setUrl:@"http://httpbin.org/post"];
-        [request setHeaders:headers];
-        [request setParameters:parameters];
-    }] asJson];
+    //NSHTTPURLResponse *response = [[UNIRest post:^(UNISimpleRequest *request) {
+       // [request setUrl:@"http://httpbin.org/post"];
+       // [request setHeaders:headers];
+      //  [request setParameters:parameters];
+   // }] asJson];
 }
 
 - (void)viewDidUnload
