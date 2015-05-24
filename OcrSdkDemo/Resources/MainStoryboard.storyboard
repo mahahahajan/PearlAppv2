@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Gcm-Eb-clI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Gcm-Eb-clI">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--Image-->
+        <!--Image View Controller-->
         <scene sceneID="EAU-5a-w1q">
             <objects>
                 <viewController id="w8n-Lo-Phj" customClass="ImageViewController" sceneMemberID="viewController">
@@ -20,13 +20,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Image" id="bKj-7i-Clc">
-                        <barButtonItem key="leftBarButtonItem" title="Take photo" id="Gye-v4-zLL">
+                    <navigationItem key="navigationItem" id="bKj-7i-Clc">
+                        <barButtonItem key="leftBarButtonItem" image="camera.png" id="Gye-v4-zLL">
+                            <color key="tintColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="takePhoto:" destination="w8n-Lo-Phj" id="Qxh-Hw-9QF"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Recognize" id="veB-M5-RE3">
+                            <color key="tintColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <segue destination="mxe-f6-qGS" kind="push" id="sh6-jw-xf7"/>
                             </connections>
@@ -75,6 +77,20 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i83-uC-swb">
+                                <rect key="frame" x="0.0" y="441" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Dm4-Ho-41f"/>
+                                    <barButtonItem title="Recomendations" id="usd-Su-Rzb">
+                                        <color key="tintColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="BbC-37-c3l" kind="push" id="HSb-gU-TJU"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="ONp-rv-k4y"/>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -89,6 +105,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EPb-jO-XH4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="489" y="685"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="K9y-eZ-n66">
+            <objects>
+                <viewController id="BbC-37-c3l" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lMi-Np-nfR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rgm-aU-ylJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bts-Ze-bhh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="484" y="1292"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WyD-he-x59">
@@ -107,6 +138,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="camera.png" width="40" height="40"/>
         <image name="sample.png" width="120" height="120"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
