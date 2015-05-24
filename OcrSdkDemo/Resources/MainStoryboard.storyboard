@@ -120,7 +120,7 @@
             </objects>
             <point key="canvasLocation" x="489" y="685"/>
         </scene>
-        <!--View Controller-->
+        <!--Recomended Facts-->
         <scene sceneID="C6q-LQ-PRO">
             <objects>
                 <viewController id="pNd-dZ-tQq" sceneMemberID="viewController">
@@ -128,14 +128,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="wrQ-8f-Ilw">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="679"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="papers.co-vc19-triangle-world-pattern-34-iphone6-plus-wallpaper.jpg" id="Hyd-AA-kzU">
+                                <rect key="frame" x="-81" y="-36" width="500" height="652"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" id="vti-kR-zHb">
+                                <rect key="frame" x="0.0" y="156" width="320" height="480"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </scrollView>
+                                <string key="text"> Steve Jobs was an entrepreneur, marketer, and inventor.
+
+ Steve Jobs funded Pixar Animation Studio, which was later acquired by Disney
+
+He later founded Next, a computer platform development company specializing in the higher-education and business markets.
+     
+ Jobs oversaw the development of the iMac, iTunes, iPod, iPhone, and iPad, and on the services side, the company's Apple Stores
+
+In 2003, Jobs was diagnosed with a pancreas neuroendocrine tumor.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="4p5-mi-OUZ"/>
+                    <navigationItem key="navigationItem" title="Recomended Facts" id="4p5-mi-OUZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6zh-El-lN3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
