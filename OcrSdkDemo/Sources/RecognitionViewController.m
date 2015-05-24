@@ -29,6 +29,24 @@ static NSString* MyPassword = @"fzs1XmPvy+p50vRP6lIiNAAb";
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    NSString * mainIdeas = @"Chile"; //This will be data from main concepts from our text search/index from the OCR data. Currently I'm setting it to Chile just to test
+    NSString * sFeedURL = [NSString stringWithFormat:@"http://dragonflysearch.com/api/search.php?q=%@", mainIdeas];
+    //RSS Feed URL goes between quotes
+    
+    NSString * sActualFeed = [NSString stringWithContentsOfURL:[NSURL URLWithString:sFeedURL] encoding:1 error:nil];
+    
+    
+    //    lblOne.text = sActualFeed;
+    NSLog(@"%@", sActualFeed);
+    
+    // NSString * sActualFeed = _summary.text;
+    //  [NSString sActualFeed componentsSeparatedByString:@","]
+    //  [NSString sActualFeed:@"",""];
+    
+    _summary.text = [NSString stringWithFormat:@"%@",sActualFeed]; //Hook up the actual text field with what's going on in here
+    
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

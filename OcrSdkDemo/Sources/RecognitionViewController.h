@@ -7,5 +7,6 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *statusLabel;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *statusIndicator;
+@property (strong, nonatomic) IBOutlet UITextView *summary;
 
 @end
