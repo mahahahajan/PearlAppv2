@@ -14,6 +14,10 @@ static NSString* MyPassword = @"fzs1XmPvy+p50vRP6lIiNAAb";
 
 @implementation RecognitionViewController
 
+{
+    NSArray *tableData;
+}
+
 @synthesize textView;
 @synthesize statusLabel;
 @synthesize statusIndicator;
@@ -33,6 +37,10 @@ static NSString* MyPassword = @"fzs1XmPvy+p50vRP6lIiNAAb";
     NSString * mainIdeas = @"Chile"; //This will be data from main concepts from our text search/index from the OCR data. Currently I'm setting it to Chile just to test
     NSString * sFeedURL = [NSString stringWithFormat:@"http://dragonflysearch.com/api/search.php?q=%@", mainIdeas];
     //RSS Feed URL goes between quotes
+    [super viewDidLoad];
+    
+    // Initialize table data
+    tableData = [NSArray arrayWithObjects:@"Steve Jobs", @"Bill Gates", @"Elon Musk", @"Peter Thiel", @"Big Head", @"Erlcih Bachman", @"Richard Hendrix", @"Gillzean", @"Dinesh", @"Gavin Hooli", nil];
     
     NSString * sActualFeed = [NSString stringWithContentsOfURL:[NSURL URLWithString:sFeedURL] encoding:1 error:nil];
     
@@ -143,6 +151,23 @@ static NSString* MyPassword = @"fzs1XmPvy+p50vRP6lIiNAAb";
 	
 	statusLabel.text = [error localizedDescription];
 	statusIndicator.hidden = YES;
+}
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return [tableData count];
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *simpleTableIdentifier = @"SimpleTableItem";
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
+    
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTableIdentifier];
+    }
+    
+    cell.textLabel.text = [tableData objectAtIndex:indexPath.row];
+    return cell;
 }
 
 @end

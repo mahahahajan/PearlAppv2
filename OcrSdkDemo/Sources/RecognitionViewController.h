@@ -1,7 +1,8 @@
 #import <UIKit/UIKit.h>
 #import "Client.h"
+#import <UIKit/UIKit.h>
 
-@interface RecognitionViewController : UIViewController<ClientDelegate>
+@interface RecognitionViewController : UIViewController<ClientDelegate, UITableViewDelegate, UITableViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UITextView *textView;
 
