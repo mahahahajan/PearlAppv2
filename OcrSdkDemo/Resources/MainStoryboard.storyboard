@@ -21,8 +21,8 @@
                                 <rect key="frame" x="0.0" y="0.0" width="453" height="679"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9cg-RD-z1n">
-                                <rect key="frame" x="100" y="222" width="120" height="120"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9cg-RD-z1n">
+                                <rect key="frame" x="160" y="340" width="120" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="sample copy.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -91,6 +91,20 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="VYv-gY-sK2">
+                                <rect key="frame" x="0.0" y="446" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="G4h-DZ-hio"/>
+                                    <barButtonItem title="Recomendations" id="iS9-Iw-oOW">
+                                        <color key="tintColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="pNd-dZ-tQq" kind="push" id="uMy-6q-11x"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="mmC-3a-g6Z"/>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -105,6 +119,27 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EPb-jO-XH4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="489" y="685"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="C6q-LQ-PRO">
+            <objects>
+                <viewController id="pNd-dZ-tQq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QvR-Jl-f6M">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="wrQ-8f-Ilw">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="679"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4p5-mi-OUZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6zh-El-lN3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="484" y="1229"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WyD-he-x59">
