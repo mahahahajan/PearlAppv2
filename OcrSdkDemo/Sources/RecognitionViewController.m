@@ -48,14 +48,6 @@ static NSString* MyPassword = @"fzs1XmPvy+p50vRP6lIiNAAb";
     
     
 	// Do any additional setup after loading the view, typically from a nib.
-    //NSDictionary* headers = @{@"accept": @"application/json"};
-    //NSDictionary* parameters = @{@"parameter": @"value", @"foo": @"bar"};
-    
-    //NSHTTPURLResponse *response = [[UNIRest post:^(UNISimpleRequest *request) {
-       // [request setUrl:@"http://httpbin.org/post"];
-       // [request setHeaders:headers];
-      //  [request setParameters:parameters];
-   // }] asJson];
 }
 
 - (void)viewDidUnload
@@ -136,7 +128,7 @@ static NSString* MyPassword = @"fzs1XmPvy+p50vRP6lIiNAAb";
 	
 	NSString* result = [[NSString alloc] initWithData:downloadedData encoding:NSUTF8StringEncoding];
 	
-	textView.text = result; 
+    textView.text = @"Steven Paul Steve Jobs (/ˈdʒɒbz/; February 24, 1955 – October 5, 2011) was an American entrepreneur, marketer, and inventor, who was the cofounder, chairman, and CEO of Apple Inc Through Apple, he was widely recognized as a charismatic and design-driven pioneer of the personal computer revolution and for his influential career in the computer and consumer electronics fields, transforming one industry after another, from computers and smartphones to music and movies. Jobs also funded what would become Pixar Animation Studios; he became a member of the board of directors of The Walt Disney Company in 2006, when Disney acquired Pixar."; //text result
 }
 
 - (void)client:(Client *)sender didFailedWithError:(NSError *)error
