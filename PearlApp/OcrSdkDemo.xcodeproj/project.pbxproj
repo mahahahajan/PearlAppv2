@@ -24,6 +24,20 @@
 		49B676071486614300F853E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49B676031486614300F853E4 /* InfoPlist.strings */; };
 		49B676081486614300F853E4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B676041486614300F853E4 /* MainStoryboard.storyboard */; };
 		49B676091486614300F853E4 /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49B676051486614300F853E4 /* sample.jpg */; };
+		4EA5E7661B11916B00CE6000 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5E7481B11916B00CE6000 /* Base64.m */; };
+		4EA5E7671B11916B00CE6000 /* UNIBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5E74B1B11916B00CE6000 /* UNIBaseRequest.m */; };
+		4EA5E7681B11916B00CE6000 /* UNIBodyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5E74D1B11916B00CE6000 /* UNIBodyRequest.m */; };
+		4EA5E7691B11916B00CE6000 /* UNISimpleRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5E74F1B11916B00CE6000 /* UNISimpleRequest.m */; };
+		4EA5E76A1B11916B00CE6000 /* UNIHTTPBinaryResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5E7521B11916B00CE6000 /* UNIHTTPBinaryResponse.m */; };
+		4EA5E76B1B11916B00CE6000 /* UNIHTTPJsonResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5E7541B11916B00CE6000 /* UNIHTTPJsonResponse.m */; };
+		4EA5E76C1B11916B00CE6000 /* UNIHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5E7561B11916B00CE6000 /* UNIHTTPResponse.m */; };
+		4EA5E76D1B11916B00CE6000 /* UNIHTTPStringResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5E7581B11916B00CE6000 /* UNIHTTPStringResponse.m */; };
+		4EA5E76E1B11916B00CE6000 /* UNIJsonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5E75A1B11916B00CE6000 /* UNIJsonNode.m */; };
+		4EA5E76F1B11916B00CE6000 /* UNIHTTPClientHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5E75C1B11916B00CE6000 /* UNIHTTPClientHelper.m */; };
+		4EA5E7701B11916B00CE6000 /* UNIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5E75E1B11916B00CE6000 /* UNIHTTPRequest.m */; };
+		4EA5E7711B11916B00CE6000 /* UNIHTTPRequestWithBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5E7601B11916B00CE6000 /* UNIHTTPRequestWithBody.m */; };
+		4EA5E7721B11916B00CE6000 /* UNIRest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5E7631B11916B00CE6000 /* UNIRest.m */; };
+		4EA5E7731B11916B00CE6000 /* UNIUrlConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5E7651B11916B00CE6000 /* UNIUrlConnection.m */; };
 		E52F4996148666A000DB5C75 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E52F4995148666A000DB5C75 /* ImageViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +72,35 @@
 		49B676031486614300F853E4 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = Resources/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 		49B676041486614300F853E4 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = Resources/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
 		49B676051486614300F853E4 /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample.jpg; path = Resources/sample.jpg; sourceTree = SOURCE_ROOT; };
+		4EA5E7471B11916B00CE6000 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		4EA5E7481B11916B00CE6000 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		4EA5E74A1B11916B00CE6000 /* UNIBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIBaseRequest.h; sourceTree = "<group>"; };
+		4EA5E74B1B11916B00CE6000 /* UNIBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIBaseRequest.m; sourceTree = "<group>"; };
+		4EA5E74C1B11916B00CE6000 /* UNIBodyRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIBodyRequest.h; sourceTree = "<group>"; };
+		4EA5E74D1B11916B00CE6000 /* UNIBodyRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIBodyRequest.m; sourceTree = "<group>"; };
+		4EA5E74E1B11916B00CE6000 /* UNISimpleRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNISimpleRequest.h; sourceTree = "<group>"; };
+		4EA5E74F1B11916B00CE6000 /* UNISimpleRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNISimpleRequest.m; sourceTree = "<group>"; };
+		4EA5E7511B11916B00CE6000 /* UNIHTTPBinaryResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIHTTPBinaryResponse.h; sourceTree = "<group>"; };
+		4EA5E7521B11916B00CE6000 /* UNIHTTPBinaryResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIHTTPBinaryResponse.m; sourceTree = "<group>"; };
+		4EA5E7531B11916B00CE6000 /* UNIHTTPJsonResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIHTTPJsonResponse.h; sourceTree = "<group>"; };
+		4EA5E7541B11916B00CE6000 /* UNIHTTPJsonResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIHTTPJsonResponse.m; sourceTree = "<group>"; };
+		4EA5E7551B11916B00CE6000 /* UNIHTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIHTTPResponse.h; sourceTree = "<group>"; };
+		4EA5E7561B11916B00CE6000 /* UNIHTTPResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIHTTPResponse.m; sourceTree = "<group>"; };
+		4EA5E7571B11916B00CE6000 /* UNIHTTPStringResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIHTTPStringResponse.h; sourceTree = "<group>"; };
+		4EA5E7581B11916B00CE6000 /* UNIHTTPStringResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIHTTPStringResponse.m; sourceTree = "<group>"; };
+		4EA5E7591B11916B00CE6000 /* UNIJsonNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIJsonNode.h; sourceTree = "<group>"; };
+		4EA5E75A1B11916B00CE6000 /* UNIJsonNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIJsonNode.m; sourceTree = "<group>"; };
+		4EA5E75B1B11916B00CE6000 /* UNIHTTPClientHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIHTTPClientHelper.h; sourceTree = "<group>"; };
+		4EA5E75C1B11916B00CE6000 /* UNIHTTPClientHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIHTTPClientHelper.m; sourceTree = "<group>"; };
+		4EA5E75D1B11916B00CE6000 /* UNIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIHTTPRequest.h; sourceTree = "<group>"; };
+		4EA5E75E1B11916B00CE6000 /* UNIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIHTTPRequest.m; sourceTree = "<group>"; };
+		4EA5E75F1B11916B00CE6000 /* UNIHTTPRequestWithBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIHTTPRequestWithBody.h; sourceTree = "<group>"; };
+		4EA5E7601B11916B00CE6000 /* UNIHTTPRequestWithBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIHTTPRequestWithBody.m; sourceTree = "<group>"; };
+		4EA5E7611B11916B00CE6000 /* Unirest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Unirest-Prefix.pch"; sourceTree = "<group>"; };
+		4EA5E7621B11916B00CE6000 /* UNIRest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIRest.h; sourceTree = "<group>"; };
+		4EA5E7631B11916B00CE6000 /* UNIRest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIRest.m; sourceTree = "<group>"; };
+		4EA5E7641B11916B00CE6000 /* UNIUrlConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIUrlConnection.h; sourceTree = "<group>"; };
+		4EA5E7651B11916B00CE6000 /* UNIUrlConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIUrlConnection.m; sourceTree = "<group>"; };
 		E52F4994148666A000DB5C75 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageViewController.h; path = Sources/ImageViewController.h; sourceTree = SOURCE_ROOT; };
 		E52F4995148666A000DB5C75 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageViewController.m; path = Sources/ImageViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -130,6 +173,7 @@
 				49B676021486614300F853E4 /* Info.plist */,
 				49B676031486614300F853E4 /* InfoPlist.strings */,
 				49B676041486614300F853E4 /* MainStoryboard.storyboard */,
+				4EA5E7461B11916B00CE6000 /* Unirest */,
 				49B676051486614300F853E4 /* sample.jpg */,
 			);
 			name = Resources;
@@ -161,6 +205,59 @@
 				E52F4995148666A000DB5C75 /* ImageViewController.m */,
 			);
 			name = Sources;
+			sourceTree = "<group>";
+		};
+		4EA5E7461B11916B00CE6000 /* Unirest */ = {
+			isa = PBXGroup;
+			children = (
+				4EA5E7471B11916B00CE6000 /* Base64.h */,
+				4EA5E7481B11916B00CE6000 /* Base64.m */,
+				4EA5E7491B11916B00CE6000 /* HttpRequest */,
+				4EA5E7501B11916B00CE6000 /* HttpResponse */,
+				4EA5E75B1B11916B00CE6000 /* UNIHTTPClientHelper.h */,
+				4EA5E75C1B11916B00CE6000 /* UNIHTTPClientHelper.m */,
+				4EA5E75D1B11916B00CE6000 /* UNIHTTPRequest.h */,
+				4EA5E75E1B11916B00CE6000 /* UNIHTTPRequest.m */,
+				4EA5E75F1B11916B00CE6000 /* UNIHTTPRequestWithBody.h */,
+				4EA5E7601B11916B00CE6000 /* UNIHTTPRequestWithBody.m */,
+				4EA5E7611B11916B00CE6000 /* Unirest-Prefix.pch */,
+				4EA5E7621B11916B00CE6000 /* UNIRest.h */,
+				4EA5E7631B11916B00CE6000 /* UNIRest.m */,
+				4EA5E7641B11916B00CE6000 /* UNIUrlConnection.h */,
+				4EA5E7651B11916B00CE6000 /* UNIUrlConnection.m */,
+			);
+			name = Unirest;
+			path = ../../../../../Desktop/Unirest;
+			sourceTree = "<group>";
+		};
+		4EA5E7491B11916B00CE6000 /* HttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				4EA5E74A1B11916B00CE6000 /* UNIBaseRequest.h */,
+				4EA5E74B1B11916B00CE6000 /* UNIBaseRequest.m */,
+				4EA5E74C1B11916B00CE6000 /* UNIBodyRequest.h */,
+				4EA5E74D1B11916B00CE6000 /* UNIBodyRequest.m */,
+				4EA5E74E1B11916B00CE6000 /* UNISimpleRequest.h */,
+				4EA5E74F1B11916B00CE6000 /* UNISimpleRequest.m */,
+			);
+			path = HttpRequest;
+			sourceTree = "<group>";
+		};
+		4EA5E7501B11916B00CE6000 /* HttpResponse */ = {
+			isa = PBXGroup;
+			children = (
+				4EA5E7511B11916B00CE6000 /* UNIHTTPBinaryResponse.h */,
+				4EA5E7521B11916B00CE6000 /* UNIHTTPBinaryResponse.m */,
+				4EA5E7531B11916B00CE6000 /* UNIHTTPJsonResponse.h */,
+				4EA5E7541B11916B00CE6000 /* UNIHTTPJsonResponse.m */,
+				4EA5E7551B11916B00CE6000 /* UNIHTTPResponse.h */,
+				4EA5E7561B11916B00CE6000 /* UNIHTTPResponse.m */,
+				4EA5E7571B11916B00CE6000 /* UNIHTTPStringResponse.h */,
+				4EA5E7581B11916B00CE6000 /* UNIHTTPStringResponse.m */,
+				4EA5E7591B11916B00CE6000 /* UNIJsonNode.h */,
+				4EA5E75A1B11916B00CE6000 /* UNIJsonNode.m */,
+			);
+			path = HttpResponse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,16 +329,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EA5E76C1B11916B00CE6000 /* UNIHTTPResponse.m in Sources */,
+				4EA5E7661B11916B00CE6000 /* Base64.m in Sources */,
+				4EA5E7731B11916B00CE6000 /* UNIUrlConnection.m in Sources */,
+				4EA5E7711B11916B00CE6000 /* UNIHTTPRequestWithBody.m in Sources */,
 				49B675FA148660FE00F853E4 /* AppDelegate.m in Sources */,
 				49B675FB148660FE00F853E4 /* Client.m in Sources */,
 				49B675FC148660FE00F853E4 /* HTTPOperation.m in Sources */,
 				49B675FD148660FE00F853E4 /* main.m in Sources */,
 				49B675FE148660FE00F853E4 /* ProcessingOperation.m in Sources */,
+				4EA5E76A1B11916B00CE6000 /* UNIHTTPBinaryResponse.m in Sources */,
+				4EA5E76D1B11916B00CE6000 /* UNIHTTPStringResponse.m in Sources */,
 				49B675FF148660FE00F853E4 /* ProcessingParams.m in Sources */,
 				49B67600148660FE00F853E4 /* RecognitionViewController.m in Sources */,
+				4EA5E7721B11916B00CE6000 /* UNIRest.m in Sources */,
+				4EA5E7681B11916B00CE6000 /* UNIBodyRequest.m in Sources */,
 				49B67601148660FE00F853E4 /* Task.m in Sources */,
+				4EA5E7671B11916B00CE6000 /* UNIBaseRequest.m in Sources */,
+				4EA5E7701B11916B00CE6000 /* UNIHTTPRequest.m in Sources */,
 				E52F4996148666A000DB5C75 /* ImageViewController.m in Sources */,
+				4EA5E76B1B11916B00CE6000 /* UNIHTTPJsonResponse.m in Sources */,
+				4EA5E7691B11916B00CE6000 /* UNISimpleRequest.m in Sources */,
+				4EA5E76F1B11916B00CE6000 /* UNIHTTPClientHelper.m in Sources */,
 				492386421640113700D178F6 /* NSData+Base64.m in Sources */,
+				4EA5E76E1B11916B00CE6000 /* UNIJsonNode.m in Sources */,
 				492386431640113700D178F6 /* NSString+Base64.m in Sources */,
 				49A5F1B11700AC020052CF10 /* ActivationInfo.m in Sources */,
 			);
