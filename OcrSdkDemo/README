@@ -1,1 +1,24 @@
+The Official Notetaking App Pearl
 
+This is the main git repository for the Pearl App. Below is the development plan:
+
+Backend
+
+Set up OCR using abbyy's 90 day trial. Turn the image into text. [Quick start guide: http://ocrsdk.com/documentation/quick-start/iphone-ocr-sdk/]
+Take that text and run it through three API's. See below.
+Display that information in categories on the info page
+Use Parse perhaps.
+Done! That's the backend!
+Three API's are as follows:
+
+A summarization API (tons on the internet, find any)
+A main concepts API (HP)
+Facts from dragonfly (Pull from the search API for the top three main ideas from HP, click here)
+Frontend
+
+Camera page. The page you take the photo, also the default page when you open the app. Should have a bar at the bottom that can take you to settings and past images.
+Past images page. This page has a list of all past images. Each item has a date a mini shot of the image. When you click on it you go to the info page. When you select them you can save them to a default email or GDrive accuont you have on file.
+Info page. This page contains the guts of the app: the information. This page shows up after an image or when you click on a past image. It should a nice list of a short summary of the iamge, a few key facts, further facts from Dragonfly, and then sponsered content such as videos, tutors, etc.
+Pearl team, feel free to push a commit to this file editing the goals if we decide to change them or I'm miss informed
+
+Remember this is just a plan and it is always in development and this document doesn't represent the final solution. If you find a better way to execute this, awesome! Push that to the repository.
