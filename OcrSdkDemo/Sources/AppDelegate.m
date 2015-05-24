@@ -8,7 +8,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-	imageToProcess = [UIImage imageNamed:@""];
+	imageToProcess = [UIImage imageNamed:@"sample.png"];
 	
     return YES;
 }

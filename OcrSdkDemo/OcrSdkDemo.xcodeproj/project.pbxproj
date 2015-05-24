@@ -37,6 +37,7 @@
 		4EFE5C411B11A24C00C05974 /* UNIHTTPRequestWithBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE5C301B11A24C00C05974 /* UNIHTTPRequestWithBody.m */; };
 		4EFE5C421B11A24C00C05974 /* UNIRest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE5C331B11A24C00C05974 /* UNIRest.m */; };
 		4EFE5C431B11A24C00C05974 /* UNIUrlConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE5C351B11A24C00C05974 /* UNIUrlConnection.m */; };
+		4EFE5C471B11A4FC00C05974 /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EFE5C461B11A4FC00C05974 /* sample.png */; };
 		E52F4996148666A000DB5C75 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E52F4995148666A000DB5C75 /* ImageViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -99,6 +100,7 @@
 		4EFE5C331B11A24C00C05974 /* UNIRest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIRest.m; sourceTree = "<group>"; };
 		4EFE5C341B11A24C00C05974 /* UNIUrlConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIUrlConnection.h; sourceTree = "<group>"; };
 		4EFE5C351B11A24C00C05974 /* UNIUrlConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIUrlConnection.m; sourceTree = "<group>"; };
+		4EFE5C461B11A4FC00C05974 /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = SOURCE_ROOT; };
 		E52F4994148666A000DB5C75 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageViewController.h; path = Sources/ImageViewController.h; sourceTree = SOURCE_ROOT; };
 		E52F4995148666A000DB5C75 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageViewController.m; path = Sources/ImageViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -172,6 +174,7 @@
 				49B676021486614300F853E4 /* Info.plist */,
 				49B676031486614300F853E4 /* InfoPlist.strings */,
 				49B676041486614300F853E4 /* MainStoryboard.storyboard */,
+				4EFE5C461B11A4FC00C05974 /* sample.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 			files = (
 				49B676071486614300F853E4 /* InfoPlist.strings in Resources */,
 				49B676081486614300F853E4 /* MainStoryboard.storyboard in Resources */,
+				4EFE5C471B11A4FC00C05974 /* sample.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
