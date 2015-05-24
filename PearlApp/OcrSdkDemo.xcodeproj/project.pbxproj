@@ -38,6 +38,7 @@
 		4EA5E7711B11916B00CE6000 /* UNIHTTPRequestWithBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5E7601B11916B00CE6000 /* UNIHTTPRequestWithBody.m */; };
 		4EA5E7721B11916B00CE6000 /* UNIRest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5E7631B11916B00CE6000 /* UNIRest.m */; };
 		4EA5E7731B11916B00CE6000 /* UNIUrlConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5E7651B11916B00CE6000 /* UNIUrlConnection.m */; };
+		4EA5E7751B1197E900CE6000 /* red pearl.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EA5E7741B1197E900CE6000 /* red pearl.png */; };
 		E52F4996148666A000DB5C75 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E52F4995148666A000DB5C75 /* ImageViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -101,6 +102,7 @@
 		4EA5E7631B11916B00CE6000 /* UNIRest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIRest.m; sourceTree = "<group>"; };
 		4EA5E7641B11916B00CE6000 /* UNIUrlConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIUrlConnection.h; sourceTree = "<group>"; };
 		4EA5E7651B11916B00CE6000 /* UNIUrlConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIUrlConnection.m; sourceTree = "<group>"; };
+		4EA5E7741B1197E900CE6000 /* red pearl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red pearl.png"; sourceTree = SOURCE_ROOT; };
 		E52F4994148666A000DB5C75 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageViewController.h; path = Sources/ImageViewController.h; sourceTree = SOURCE_ROOT; };
 		E52F4995148666A000DB5C75 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageViewController.m; path = Sources/ImageViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -170,6 +172,7 @@
 		49B675E8148647DD00F853E4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4EA5E7741B1197E900CE6000 /* red pearl.png */,
 				49B676021486614300F853E4 /* Info.plist */,
 				49B676031486614300F853E4 /* InfoPlist.strings */,
 				49B676041486614300F853E4 /* MainStoryboard.storyboard */,
@@ -319,6 +322,7 @@
 				49B676071486614300F853E4 /* InfoPlist.strings in Resources */,
 				49B676081486614300F853E4 /* MainStoryboard.storyboard in Resources */,
 				49B676091486614300F853E4 /* sample.jpg in Resources */,
+				4EA5E7751B1197E900CE6000 /* red pearl.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
