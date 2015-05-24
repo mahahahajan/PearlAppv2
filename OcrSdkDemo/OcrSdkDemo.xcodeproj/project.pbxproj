@@ -38,6 +38,10 @@
 		4EFE5C421B11A24C00C05974 /* UNIRest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE5C331B11A24C00C05974 /* UNIRest.m */; };
 		4EFE5C431B11A24C00C05974 /* UNIUrlConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE5C351B11A24C00C05974 /* UNIUrlConnection.m */; };
 		4EFE5C471B11A4FC00C05974 /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EFE5C461B11A4FC00C05974 /* sample.png */; };
+		CAC4476D1B1206AD0044BC3D /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = CAC4476C1B1206AD0044BC3D /* sample.png */; };
+		CAC4476F1B1206B10044BC3D /* papers.co-vc19-triangle-world-pattern-34-iphone6-plus-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAC4476E1B1206B10044BC3D /* papers.co-vc19-triangle-world-pattern-34-iphone6-plus-wallpaper.jpg */; };
+		CAC447711B1206BA0044BC3D /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = CAC447701B1206BA0044BC3D /* camera.png */; };
+		CAC447731B12086C0044BC3D /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = CAC447721B12086C0044BC3D /* sample.png */; };
 		E52F4996148666A000DB5C75 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E52F4995148666A000DB5C75 /* ImageViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -101,6 +105,10 @@
 		4EFE5C341B11A24C00C05974 /* UNIUrlConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIUrlConnection.h; sourceTree = "<group>"; };
 		4EFE5C351B11A24C00C05974 /* UNIUrlConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIUrlConnection.m; sourceTree = "<group>"; };
 		4EFE5C461B11A4FC00C05974 /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = SOURCE_ROOT; };
+		CAC4476C1B1206AD0044BC3D /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sample.png; path = Resources/sample.png; sourceTree = SOURCE_ROOT; };
+		CAC4476E1B1206B10044BC3D /* papers.co-vc19-triangle-world-pattern-34-iphone6-plus-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "papers.co-vc19-triangle-world-pattern-34-iphone6-plus-wallpaper.jpg"; path = "Resources/papers.co-vc19-triangle-world-pattern-34-iphone6-plus-wallpaper.jpg"; sourceTree = SOURCE_ROOT; };
+		CAC447701B1206BA0044BC3D /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = camera.png; path = Resources/camera.png; sourceTree = SOURCE_ROOT; };
+		CAC447721B12086C0044BC3D /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = SOURCE_ROOT; };
 		E52F4994148666A000DB5C75 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageViewController.h; path = Sources/ImageViewController.h; sourceTree = SOURCE_ROOT; };
 		E52F4995148666A000DB5C75 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageViewController.m; path = Sources/ImageViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -171,6 +179,10 @@
 		49B675E8148647DD00F853E4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CAC4476E1B1206B10044BC3D /* papers.co-vc19-triangle-world-pattern-34-iphone6-plus-wallpaper.jpg */,
+				CAC447701B1206BA0044BC3D /* camera.png */,
+				CAC4476C1B1206AD0044BC3D /* sample.png */,
+				CAC447721B12086C0044BC3D /* sample.png */,
 				49B676021486614300F853E4 /* Info.plist */,
 				49B676031486614300F853E4 /* InfoPlist.strings */,
 				49B676041486614300F853E4 /* MainStoryboard.storyboard */,
@@ -313,6 +325,10 @@
 				49B676071486614300F853E4 /* InfoPlist.strings in Resources */,
 				49B676081486614300F853E4 /* MainStoryboard.storyboard in Resources */,
 				4EFE5C471B11A4FC00C05974 /* sample.png in Resources */,
+				CAC4476D1B1206AD0044BC3D /* sample.png in Resources */,
+				CAC447711B1206BA0044BC3D /* camera.png in Resources */,
+				CAC447731B12086C0044BC3D /* sample.png in Resources */,
+				CAC4476F1B1206B10044BC3D /* papers.co-vc19-triangle-world-pattern-34-iphone6-plus-wallpaper.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
